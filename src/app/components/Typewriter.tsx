@@ -1,5 +1,4 @@
 import { ReactTyped } from 'react-typed';
-import { DoubleArrowDownIcon } from '@radix-ui/react-icons';
 export default function Typewriter() {
   return (
     <div className='h-screen flex flex-col justify-evenly'>
@@ -27,7 +26,11 @@ export default function Typewriter() {
         </ReactTyped>
       </div>
       <div>
-        <ReactTyped strings={['↓']} typeSpeed={40} startDelay={5000}>
+        <ReactTyped
+          strings={['↓']}
+          typeSpeed={40}
+          startDelay={5000}
+          className='bold'>
           <input type='text' />
         </ReactTyped>
       </div>
