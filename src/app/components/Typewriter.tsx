@@ -1,12 +1,12 @@
-import Link from 'next/link';
 import { ReactTyped } from 'react-typed';
+
 export default function Typewriter() {
   const handleScrollToBottom = () => {
     window.scrollTo(0, document.body.scrollHeight);
   };
   return (
     <div className='h-screen flex flex-col justify-evenly'>
-      <div>
+      <div className='h-32 w-32'>
         <ReactTyped
           strings={['Hello, World!']}
           typeSpeed={40}
@@ -34,12 +34,11 @@ export default function Typewriter() {
           showCursor={false}
         />
       </div>
-      <div onClick={handleScrollToBottom} className='cursor-pointer'>
+      <div className='h-32 w-32 cursor-pointer' onClick={handleScrollToBottom}>
         <ReactTyped
           strings={['↓']}
           typeSpeed={40}
           startDelay={4800}
-          className='bold'
           showCursor={false}
         />
       </div>
