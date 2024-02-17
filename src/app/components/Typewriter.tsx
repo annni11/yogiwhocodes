@@ -29,7 +29,7 @@ export default function Typewriter() {
         <ReactTyped
           strings={['↓']}
           typeSpeed={40}
-          startDelay={5000}
+          startDelay={4800}
           className='bold'>
           <input type='text' />
         </ReactTyped>
