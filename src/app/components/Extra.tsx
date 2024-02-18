@@ -34,7 +34,7 @@ export default function Extra() {
               href='https://poshmark.com/closet/fifevintage'
               rel='noopener noreferrer'
               target='_blank'
-              className='italic hover:text-pink-300'>
+              className='italic hover:text-violet-400'>
               Poshmark
             </Link>
           </p>

@@ -10,7 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 export default function About() {
   return (
-    <Card className='sm:w-1/2'>
+    <Card className='sm:w-1/2 '>
       <CardHeader>
         <div className='flex justify-between'>
           <div>
@@ -19,7 +19,7 @@ export default function About() {
             <CardDescription>About me:</CardDescription>
           </div>
           <Avatar>
-            <AvatarImage src='' />
+            <AvatarImage src='https://github.com/annni11/yogiwhocodes/blob/main/src/app/avatar.jpeg?raw=true' />
             <AvatarFallback>AN</AvatarFallback>
           </Avatar>
         </div>

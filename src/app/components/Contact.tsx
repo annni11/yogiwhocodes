@@ -19,16 +19,16 @@ export default function Contact() {
             href='https://www.linkedin.com/in/annabelleni/'
             rel='noopener noreferrer'
             target='_blank'>
-            <Linkedin className='hover:text-pink-300' />
+            <Linkedin className='hover:text-violet-400' />
           </Link>
           <Link
             href='https://github.com/annni11'
             rel='noopener noreferrer'
             target='_blank'>
-            <Github className='hover:text-pink-300' />
+            <Github className='hover:text-violet-400' />
           </Link>
           <Link href='mailto:ann.j.ni@gmail.com'>
-            <Send className='hover:text-pink-300' />
+            <Send className='hover:text-violet-400' />
           </Link>
         </div>
       </CardContent>
