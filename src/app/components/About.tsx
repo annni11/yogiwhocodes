@@ -27,15 +27,15 @@ export default function About() {
       <CardContent>
         <div className='flex'>
           <Pin />
-          <p>NYC</p>
+          <p>&nbsp;NYC</p>
         </div>
         <div className='flex'>
           <Laptop />
-          <p>Full-stack software engineer</p>
+          <p>&nbsp;Full-stack software engineer</p>
         </div>
         <div className='flex'>
           <Heart />
-          <p>200-hour certified yoga instructor</p>
+          <p>&nbsp;200-hour certified yoga instructor</p>
         </div>
       </CardContent>
     </Card>
