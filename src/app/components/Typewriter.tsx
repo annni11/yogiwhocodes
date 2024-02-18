@@ -6,7 +6,7 @@ export default function Typewriter() {
   };
   return (
     <div className='h-screen flex flex-col justify-evenly'>
-      <div className='h-32 w-32'>
+      <div className='h-40 w-40'>
         <ReactTyped
           strings={['Hello, World!']}
           typeSpeed={40}
@@ -34,7 +34,7 @@ export default function Typewriter() {
           showCursor={false}
         />
       </div>
-      <div className='h-32 w-32 cursor-pointer' onClick={handleScrollToBottom}>
+      <div className='h-40 w-40 cursor-pointer' onClick={handleScrollToBottom}>
         <ReactTyped
           strings={['↓']}
           typeSpeed={40}

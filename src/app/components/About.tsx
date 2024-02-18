@@ -19,23 +19,23 @@ export default function About() {
             <CardDescription>About me:</CardDescription>
           </div>
           <Avatar>
-            <AvatarImage src='https://github.com/annni11/yogiwhocodes/blob/main/src/app/avatar.png?raw=true' />
+            <AvatarImage src='' />
             <AvatarFallback>AN</AvatarFallback>
           </Avatar>
         </div>
       </CardHeader>
       <CardContent>
         <div className='flex'>
-          <Pin />
-          <p>&nbsp;NYC</p>
-        </div>
-        <div className='flex'>
           <Laptop />
           <p>&nbsp;Full-stack software engineer</p>
         </div>
         <div className='flex'>
           <Heart />
-          <p>&nbsp;200-hour certified yoga instructor</p>
+          <p>&nbsp;Yoga student (mostly) and teacher (sometimes)</p>
+        </div>
+        <div className='flex'>
+          <Pin />
+          <p>&nbsp;Based in NYC</p>
         </div>
       </CardContent>
     </Card>
