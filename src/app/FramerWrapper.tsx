@@ -8,7 +8,7 @@ export default function FramerWrapper({ children }) {
         <motion.div
           initial={{ opacity: 0 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 6 }}
+          transition={{ duration: 5 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}>
           {children}
