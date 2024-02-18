@@ -40,6 +40,8 @@ export default function Typewriter() {
           typeSpeed={40}
           startDelay={4800}
           showCursor={false}
+          className='bold 
+          hover:text-pink-300'
         />
       </div>
     </div>
