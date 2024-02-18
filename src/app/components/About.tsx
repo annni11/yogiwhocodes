@@ -31,7 +31,7 @@ export default function About() {
         </div>
         <div className='flex'>
           <Heart />
-          <p>&nbsp;Yoga student (mostly) and teacher (sometimes)</p>
+          <p>&nbsp;Yoga student and teacher</p>
         </div>
         <div className='flex'>
           <Pin />
