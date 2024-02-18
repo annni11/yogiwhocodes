@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Fira_Code } from 'next/font/google';
 import './globals.css';
-import Footer from './components/Footer';
 const font = Fira_Code({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
